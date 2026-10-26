@@ -1,3 +1,17 @@
-from hash import *
+from hash.hash import Hash
 
-size = input("Char length of hash: ")
+Hash.size = input("Paste Hash: ")
+print(Hash.size)
+
+class Memory:
+    mem = len(Hash.size)
+    print(mem)
+
+
+
+
+
+
+
+
+
