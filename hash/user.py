@@ -1,4 +1,5 @@
 from hash.hash import Hash
+from hash.storage import *
 
 Hash.size = input("Paste Hash: ")
 print(Hash.size)
